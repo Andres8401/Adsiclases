@@ -1,0 +1,49 @@
+Clase I Juan Pablo
+
+CAPAS DE MODELO OSI
+
+sistema de comunicacion se llama cliente servidor, se trata de un cliente que siempre hace solicitudes a un servidor.
+nos interesa que el servidor este configurado para que funcione muy bien.
+
+para descartar que le puede pasar al servidor debemos de tener en cuenta las 7 capaz del modelo Osi. como tal son 7 capas, se enumeran 1 fisica hasta la 7 aplicacion.
+pero como tal la informacion fluye de la capa 7 hacia la 1. 
+para verificar los errores miramos las capas de la uno a la siete
+
+Mirar video guerreros de la red.
+ En la capa 7: se llaman datos. es donde esta el software de nosotros, donde nuestro software va a guardar la informacion. Es el servidor que va a coger la aplicacion y procesar internamente.
+ capa 6 presentacion: el metodo en que la aplicacion va a presentar los datos
+capa 5 sesion: la forma en que el servidor se va a conectar con los clientes.
+ lo que hacen esas tres es preparar todos los datos para que el usuario final lo mire lo verifique y lo pueda entender.
+
+Ej: cuando ingresamos a gmail la capa de aplicacion es la que da el entorno donde ingresamos el usuario y contraseña.
+Cual es la aplicacion? el correo. Cual es la sesion? el usuario y contraseña. cual es la presentacion? el modo en el que ingresamos el usuario y contraseña.
+
+la capa de aplicacion se une con la de presentacion y sesion. es donde el programador va a poner como tal todo como el usuario lo va a ver
+en https la comunicacion va cifrada.
+
+
+
+la coki me puede indicar de donde me estoy conectando, cuando es la ip de mi computador, cual es la referencia del equipo que me estoy conectando, por eso no es tan conveniente cuano estoy navegando permitir las cokis, si lo permitimos estamos permitiendo que el sitio web sepa todo nuestros gustos, que queremos que navegamos que consultamos, nuestro historial de internet, averigur todo lo que queremos. 
+como es una conexion entre servidor y cliente generan una sesion.
+
+-para asignar las cockies se realiza por medio de una Api.
+ ?si su pagina web es un producto y tiene informacion en su sitio web y la esta ofreciendo gratis, cual es la manera de vender la informacion? capturando la informacion del cliente. y como lo hace? por medio del cockies. quiere saber cuales son las paginas que mas navega la persona, instala una cockie para que cuando la persona se conecte la cocki empiece a enviar todo el historial de trafico de la persona. se puede obtener toda la informacion de la pagina.
+con esa informacion hacen un analisis de lo que usted mas busca y por medio de eso se van metiendo. 
+
+65,535 puertos todos son vulnerables.
+
+La sesion genera los mecanismos para el dialogo, como, para que etc
+
+en la sesion voy a definir como voy a presentar y que aplicacion de capa 7 voy a utilizar entonces voy a saber que lenguaje ultilizar php, javascrip.
+
+No utilizar thor no utiliza cokis, es un navegador que instantaneamente captura toda la informacionde del computador. indentifica resolucion de pantalla, que chip, que procesador, que clase de computador. utilizarlo solo en la pnatalla que esta y nunca maximizar la pantalla.
+en la uaip tiene que preguntar cokis, en la dep y darweb no te prguntan, ya tienen tu informacion.
+
+la pdu es la unidad de datos de capa, cada capa tiene una pdu. indica que los datos se llaman de cierta manera, segun en la capa de modelo osi en la que se encuentren.    si yo tengo mi pdu o mis datos en la capa de aplicaion presentacion y sesion mi pdu se va a llamar Datos.
+
+toda vpn que parezca gratis no es gratis, siempre van a obtener informacion tuya la unica vpn que es gratis es una que hayas configurado tu en tu propia casa con tu seguridad y te estes conectando desde una parte externa a tu casa.
+
+que se transmite por la idc. la Idc es la central de datos, ahi estan como tal los servidores.
+
+
+

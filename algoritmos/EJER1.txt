@@ -1,0 +1,42 @@
+EJERCICIO 1.
+ 
+        // Solicitar 2 numeros en variables A y B, cambiar lo de A para B y de B para A
+        
+        int a, b, c;
+        Scanner leer = new Scanner(System.in);
+        
+        System.out.println("ingrese dos numeros");
+        a = leer.nextInt();
+        b = leer.nextInt(); 
+        
+        c=a; 
+        a=b;
+        b=c; 
+        
+        System.out.println("el valor de la variable A es: " + a + " y el valor de la variable B es: " + b );
+
+
+EJERCICIO 2.
+
+       // pedir 2 numeros y decir cual es el mayor y menor
+        
+       int N1, N2; 
+       Scanner leer = new Scanner(System.in);
+       
+       System.out.println("ingrese dos numeros");
+       N1 = leer.nextInt();
+       N2 = leer.nextInt();
+       
+       if (N1>N2){
+          System.out.println("el numero mayor es: " + N1);
+          System.out.println("el numero menor es: " + N2);
+        }           
+ 
+       else{ 
+         System.out.println("el numero mayor es: " + N2);
+         System.out.println("el numero menor es: " + N1);
+       }
+                
+
+EJERCICIO 3.       
+       
